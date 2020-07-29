@@ -1,0 +1,25 @@
+{
+  "name": "inline-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript boilerplate for projects",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "author": "Yan Kuchinsky",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "cross-env": "^7.0.2",
+    "file-loader": "^6.0.0",
+    "gl-matrix": "^3.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.3",
+    "typescript": "^3.8.3",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
